@@ -318,6 +318,13 @@ public partial class MainPage : ContentPage
         }
     }
 
+    private async void btnInformation_Click(object? sender, EventArgs e)
+    {
+        await DisplayAlert("Information",
+            "Enter any 3 of the loan variables on the right, then tap the 4th button on the left.",
+            "OK");
+    }
+
     private void btnClear_Click(object? sender, EventArgs e)
     {
         txbLoanAmount.Text = "";
