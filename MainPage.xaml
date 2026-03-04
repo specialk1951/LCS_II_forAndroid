@@ -18,7 +18,7 @@
                 <Button x:Name="btnLoanAmount"
                         Text="Loan&#10;Amount"
                         FontSize="14"
-                        HeightRequest="48"
+                        HeightRequest="60"
                         Clicked="btnLoanAmount_Click" />
                 <Entry x:Name="txbLoanAmount"
                        Placeholder="Loan Amount"
@@ -34,7 +34,7 @@
                 <Button x:Name="btnInterestRate"
                         Text="Interest&#10;Rate"
                         FontSize="14"
-                        HeightRequest="48"
+                        HeightRequest="60"
                         Clicked="btnInterestRate_Click" />
                 <Entry x:Name="txbInterestRate"
                        Placeholder="Interest Rate"
@@ -50,7 +50,7 @@
                 <Button x:Name="btnNumberOfPayments"
                         Text="Number Of&#10;Payments"
                         FontSize="14"
-                        HeightRequest="48"
+                        HeightRequest="60"
                         Clicked="btnNumberOfPayments_Click" />
                 <Entry x:Name="txbNumberOfPayments"
                        Placeholder="No. of Payments"
@@ -66,7 +66,7 @@
                 <Button x:Name="btnPaymentAmount"
                         Text="Payment&#10;Amount"
                         FontSize="14"
-                        HeightRequest="48"
+                        HeightRequest="60"
                         Clicked="btnPaymentAmount_Click" />
                 <Entry x:Name="txbPaymentAmount"
                        Placeholder="Payment Amount"
@@ -99,14 +99,14 @@
                 <Button x:Name="btnInformation"
                         Text="Information"
                         FontSize="14"
-                        HeightRequest="48"
+                        HeightRequest="60"
                         BackgroundColor="White"
                         TextColor="Black"
                         Clicked="btnInformation_Click" />
                 <Button x:Name="btnClear"
                         Text="Clear"
                         FontSize="14"
-                        HeightRequest="48"
+                        HeightRequest="60"
                         BackgroundColor="White"
                         TextColor="Black"
                         Grid.Column="1"
